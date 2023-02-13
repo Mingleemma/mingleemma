@@ -15,6 +15,14 @@ padding: 20px;
     max-width: 20rem;
 }
 
+.manImg {
+    display: none;
+}
+
+.hover-text:hover ~ .manImg {
+    display: block;  
+}
+
 p:last-of-type {
     font-size: .8rem;
 }
